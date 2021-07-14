@@ -1,6 +1,6 @@
 import pathlib
 import csv
-csvpath = pathlib.Path('/Users/negindjalali/Desktop/USC/Curriculum/usc-la-virt-data-pt-06-2021-u-c/unit_03_python/homework/PyPoll/Resources/election_data.csv')
+csvpath = pathlib.Path('Resources/election_data.csv')
 with open(csvpath) as csvfile:
     csvreader = csv.reader(csvfile, delimiter= ',')
     print(csvreader)
